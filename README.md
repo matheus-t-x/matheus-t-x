@@ -1,4 +1,4 @@
-<h1 align="center">`Olá, eu sou Matheus Xisto`</h1>
+<h1 align="center">Olá, eu sou Matheus Xisto</h1>
 
 <p align="center">Estudante de Engenharia de Software | 2º Semestre | Cruzeiro do Sul</p>
 

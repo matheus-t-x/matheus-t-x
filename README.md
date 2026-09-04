@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=1a1a2e&height=200&section=header&text=Olá,%20eu%20sou%20%Matheus%20Xisto%&fontSize=40&fontColor=ffffff&animation=fadeIn" alt="banner"/> </p>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Olá,%20eu%20sou%20Matheus%20Xisto&fontSize=40&fontColor=ffffff&animation=fadeIn" alt="banner"/></p>
 
 <p align="center">Estudante de Engenharia de Software | 2º Semestre | Cruzeiro do Sul</p>
 
@@ -13,3 +13,7 @@ Sou um amante da tecnologia que atualmente está estudando Engenharia de Softwar
 - Consolidando fundamentos: Lógica de Programação e Estrutura de Dados.
 - Objetivo atual: Entender como funciona a base para a programação para começar a me especializar, sempre praticando constantemente.
 - Explorando cada vez mais diferentes áreas para definir e seguir minha trilha profissional.
+
+<p align="left"> <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/></a> </p>
+
+<p align="center"><b><i>Perfil atualizado periodicamente para refletir meu progresso.</i></b></p>

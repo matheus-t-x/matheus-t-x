@@ -1,19 +1,3 @@
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Olá,%20eu%20sou%20Matheus%20Xisto&fontSize=40&fontColor=ffffff&animation=fadeIn" alt="banner"/></p>
-
-<p align="center">Estudante de Engenharia de Software | 2º Semestre | Cruzeiro do Sul</p>
-
-<p align="center"><img src="https://img.shields.io/badge/foco-fundamentos%20de%20programação-ff9900?style=for-the-badge&labelColor=000000" alt="foco"/> </p>
-<p align="center"><img src="https://img.shields.io/badge/status-aprendendo-1a1a2e?style=for-the-badge&labelColor=000000" alt="status"/></p>
-
-### Sobre mim
-
-Sou um amante da tecnologia que atualmente está estudando Engenharia de Software na Universidade Cruzeiro do Sul. Focado em aprender cada vez mais sobre a lógica da programação e como ser um bom profissional da área, documentando toda a minha jornada tanto na Universidade quanto na vida profissional. 
-
-- Engenharia de Software - 2º Semestre
-- Consolidando fundamentos: Lógica de Programação e Estrutura de Dados.
-- Objetivo atual: Entender como funciona a base para a programação para começar a me especializar, sempre praticando constantemente.
-- Explorando cada vez mais diferentes áreas para definir e seguir minha trilha profissional.
-
-<p align="left"> <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/></a> </p>
-
-<p align="center"><b><i>Perfil atualizado periodicamente para refletir meu progresso.</i></b></p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=2d2d2d&height=120&section=header&text=Hi,%20I'm%20Matheus&fontSize=32&fontColor=ffffff&fontAlignY=50&desc=Software%20Engineering%20-%202nd%20Semester%20-%20Universidade%20Cruzeiro%20do%20Sul&descAlignY=75&descSize=16" width="100%"/>
+</p>

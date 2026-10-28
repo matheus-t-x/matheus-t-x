@@ -1,0 +1,59 @@
+:root {
+  /* Design system: paleta (primárias, secundárias e neutras) */
+  --color-forest: #174C3C;
+  --color-forest-dark: #10382D;
+  --color-green: #287A5B;
+  --color-mint: #DDF3E8;
+  --color-lime: #D7F36A;
+  --color-sky: #DCECF8;
+  --color-blue: #426E9B;
+  --color-lavender: #E9E1F8;
+  --color-purple: #7456A6;
+  --color-peach: #FCE6D7;
+  --color-orange: #B96535;
+  --color-white: #FFFFFF;
+  --color-neutral-50: #F8FAF8;
+  --color-neutral-100: #EEF2EF;
+  --color-neutral-200: #DDE5DF;
+  --color-neutral-400: #9AA9A0;
+  --color-neutral-600: #596A60;
+  --color-neutral-800: #26372E;
+  --color-neutral-900: #17271F;
+  --color-danger: #B42318;
+  --color-success: #16794B;
+  --color-warning: #925D0A;
+
+  /* Tipografia hierárquica: 12, 14, 16, 18, 20, 24, 32, 40, 56, 68px */
+  --font-body: "DM Sans", sans-serif;
+  --font-display: "Manrope", sans-serif;
+  --font-xs: .75rem;
+  --font-sm: .875rem;
+  --font-base: 1rem;
+  --font-lg: 1.125rem;
+  --font-xl: 1.25rem;
+  --font-2xl: 1.5rem;
+  --font-3xl: 2rem;
+  --font-4xl: clamp(2.5rem, 4.5vw, 3.5rem);
+  --font-5xl: clamp(3rem, 5.8vw, 4.25rem);
+
+  /* Espaçamento modular em múltiplos de 8px */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+  --space-8: 80px;
+  --space-9: 96px;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-pill: 999px;
+  --shadow-soft: 0 12px 40px rgba(23, 39, 31, .08);
+  --shadow-card: 0 18px 45px rgba(23, 39, 31, .10);
+  --container: 1200px;
+  --transition: 180ms ease;
+}

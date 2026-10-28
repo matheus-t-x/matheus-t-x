@@ -1,0 +1,55 @@
+/* Breakpoints: 1200, 1024, 800, 600 e 420px */
+@media (max-width: 1200px) {
+  :root { --container: 1080px; }
+  .hero__grid { gap: 36px; }.hero-photo { height: 450px; }
+  .primary-nav { gap: 18px; }.nav-link { font-size: 13px; }
+  .project-card__image { height: 195px; }.project-card__body { padding: 17px; }
+  .footer-main { gap: 32px; }
+}
+@media (max-width: 1024px) {
+  :root { --space-9: 80px; }
+  .container { width: min(calc(100% - 40px), var(--container)); }
+  .header__inner { min-height: 76px; }.primary-nav { gap: 14px; }.primary-nav .nav-link { font-size: 12px; }.nav-cta { padding-inline: 12px; }
+  .hero { padding-top: 58px; }.hero__grid { gap: 28px; }.hero-photo { height: 410px; }.floating-card--impact { left: -18px; }.floating-card--quote { right: -5px; }
+  .projects-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }.project-card__image { height: 230px; }
+  .mission-grid { gap: 48px; }.mission-visual > img { height: 500px; }
+  .volunteer-panel__copy { padding-left: 42px; }.art-message { width: 200px; height: 200px; }
+  .footer-main { grid-template-columns: 1.3fr 1fr 1fr; }.footer-contact { grid-column: 2 / 4; }
+}
+@media (max-width: 800px) {
+  .container { width: min(calc(100% - 36px), var(--container)); }
+  .menu-toggle { display: flex; flex-direction: column; justify-content: center; gap: 5px; width: 44px; height: 44px; padding: 10px; background: white; border: 1px solid var(--color-neutral-200); border-radius: 11px; }
+  .menu-toggle span { display: block; width: 100%; height: 2px; background: var(--color-forest); border-radius: 2px; transition: transform var(--transition), opacity var(--transition); }
+  .menu-toggle[aria-expanded="true"] span:first-child { transform: translateY(7px) rotate(45deg); }.menu-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }.menu-toggle[aria-expanded="true"] span:last-child { transform: translateY(-7px) rotate(-45deg); }
+  .primary-nav { position: fixed; top: 112px; right: 0; bottom: 0; left: 0; display: flex; flex-direction: column; align-items: stretch; gap: 4px; padding: 24px 28px 40px; overflow-y: auto; background: white; opacity: 0; visibility: hidden; transform: translateY(-8px); transition: opacity var(--transition), transform var(--transition), visibility var(--transition); }
+  .primary-nav.is-open { opacity: 1; visibility: visible; transform: translateY(0); }.primary-nav .nav-link { justify-content: space-between; width: 100%; padding: 14px 4px; font-size: var(--font-base); border-bottom: 1px solid var(--color-neutral-100); }.nav-cta { margin-top: 12px; }
+  .nav-dropdown { width: 100%; }.dropdown-menu { position: static; display: none; min-width: 0; margin: 0 0 8px; padding: 5px 12px; border: 0; border-radius: 10px; box-shadow: none; opacity: 1; visibility: visible; transform: none; }.nav-dropdown.is-open .dropdown-menu { display: grid; }.dropdown-menu a { padding: 12px; }
+  .hero__grid { grid-template-columns: 1fr 1fr; gap: 24px; }.hero h1 { font-size: clamp(2.7rem, 7vw, 3.5rem); }.hero__lead { font-size: var(--font-base); }.hero-photo { height: 380px; }.floating-card { padding: 12px; }.floating-card--impact { left: -12px; }.floating-card--quote { right: -4px; max-width: 200px; }
+  .impact-stat { padding-inline: 10px; }.impact-stat strong { font-size: 27px; }
+  .section-heading { align-items: flex-start; flex-direction: column; gap: 18px; }.section-heading > p { max-width: 520px; }
+  .mission-grid { grid-template-columns: 1fr; gap: 48px; }.mission-visual { max-width: 580px; }.mission-visual > img { height: 430px; }.mission-content { max-width: 650px; }
+  .volunteer-panel { grid-template-columns: 1fr .75fr; }.volunteer-panel__copy { padding: 42px 0 42px 32px; }.volunteer-panel h2 { font-size: 2.3rem; }.volunteer-panel__art { min-height: 360px; }.art-message { width: 170px; height: 170px; }.art-message strong { font-size: 28px; }
+  .donation-grid { grid-template-columns: 1fr 1fr; gap: 32px; }.donation-form { padding: 24px; }.amount-options { grid-template-columns: repeat(2, 1fr); }
+  .newsletter-grid { grid-template-columns: 1fr; gap: 28px; }.newsletter-form { max-width: 600px; }
+}
+@media (max-width: 600px) {
+  :root { --space-9: 64px; }
+  .container { width: min(calc(100% - 32px), var(--container)); }.announcement__inner { min-height: 34px; font-size: 10px; }.announcement__inner > span { gap: 6px; }.header__inner { min-height: 72px; }.primary-nav { top: 106px; }
+  .hero { padding-top: 44px; }.hero__grid { grid-template-columns: 1fr; gap: 34px; }.hero__content { padding-bottom: 0; }.hero h1 { font-size: clamp(2.8rem, 12vw, 4rem); }.hero__lead { max-width: 480px; }.hero__actions { align-items: stretch; flex-direction: column; }.hero__actions .button { width: 100%; }.hero__social-proof { margin-top: 26px; }.hero__visual { width: min(100% - 18px, 440px); margin-inline: auto; padding-right: 0; }.hero-photo { height: 390px; border-radius: 45% 45% 18px 18px; }.floating-card--impact { top: 18%; left: -15px; }.floating-card--quote { right: -12px; bottom: 7%; }.hero__bottom { flex-wrap: wrap; gap: 10px; margin-top: 26px; font-size: 8px; }
+  .impact-strip { padding-block: 22px; }.impact-strip__grid { grid-template-columns: repeat(2, 1fr); row-gap: 20px; }.impact-stat:nth-child(2) { border: 0; }.impact-stat strong { font-size: 29px; }
+  .section-heading h2, .mission-content h2, .donation-copy h2 { font-size: clamp(2.3rem, 10vw, 3.2rem); }.projects-grid { grid-template-columns: 1fr; gap: 18px; }.project-card__image { height: 235px; }.project-card__body { padding: 20px; }.project-card__body > p { min-height: 0; }.filter-row { flex-wrap: nowrap; padding-bottom: 8px; overflow-x: auto; scrollbar-width: thin; }.filter-chip { flex-shrink: 0; }.section-bottom { align-items: flex-start; flex-direction: column; }.section-bottom .button { width: 100%; }
+  .mission-visual { padding-right: 8px; }.mission-visual > img { height: 380px; border-radius: 22px; }.mission-note { right: -4px; padding: 12px 14px; }.mission-note > span { width: 36px; height: 36px; }.mission-note strong { font-size: 12px; }
+  .volunteer-panel { grid-template-columns: 1fr; }.volunteer-panel__copy { padding: 38px 26px 0; }.volunteer-panel h2 { font-size: 2.5rem; }.volunteer-panel__art { min-height: 280px; }.art-message { width: 180px; height: 180px; }.art-circle--one { width: 300px; height: 300px; }.art-circle--two { width: 220px; height: 220px; }
+  .donation-grid { grid-template-columns: 1fr; gap: 32px; }.donation-form { padding: 22px 18px; }.form-heading h3 { font-size: 21px; }.amount-options { grid-template-columns: repeat(4, 1fr); gap: 6px; }.amount-option { font-size: 12px; }
+  .newsletter-section { padding-block: 48px; }.newsletter-form { grid-template-columns: 1fr; }.newsletter-form .button { width: 100%; }.newsletter-form small { grid-column: auto; }
+  .footer-main { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 35px 24px; padding-block: 48px 36px; }.footer-brand { grid-column: 1 / -1; }.footer-contact { grid-column: auto; }.footer-bottom { align-items: flex-start; flex-direction: column; gap: 12px; padding-block: 20px; }.footer-bottom > div { gap: 16px; }.back-top { align-self: flex-start; }
+  .toast-region { right: 16px; bottom: 16px; }.toast { padding: 13px; }
+}
+@media (max-width: 420px) {
+  .container { width: min(calc(100% - 28px), var(--container)); }
+  .announcement__inner > span { max-width: 65%; }.announcement__inner > a { font-size: 10px; }
+  .brand__name { font-size: 17px; }.hero-photo { height: 330px; }.floating-card--impact { left: -8px; }.floating-card--quote { right: -8px; max-width: 180px; }.floating-card strong { font-size: 18px; }
+  .impact-stat > span { font-size: 10px; }.project-meta { font-size: 9px; }.project-card__footer { align-items: flex-start; flex-direction: column; }
+  .mission-visual > img { height: 330px; }.mission-note { max-width: 230px; }.volunteer-panel h2 { font-size: 2.15rem; }.volunteer-panel__copy { padding-inline: 22px; }
+  .amount-options { grid-template-columns: repeat(2, 1fr); }.footer-main { gap: 28px 18px; }
+}

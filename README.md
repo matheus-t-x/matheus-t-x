@@ -10,17 +10,17 @@
 
 ---
 
-## 👋 Sobre mim
+## 👋 About me
 
-Sou estudante de **Engenharia de Software** na **Universidade Cruzeiro do Sul**, cursando o 2º semestre. Estou começando minha carreira na área de tecnologia e aprendendo um pouco mais a cada dia.
+I'm a **Software Engineering** student at **Universidade Cruzeiro do Sul**, currently in my 2nd semester. I'm starting my career in tech and learning a little more every day.
 
-- 🌱 Dando meus primeiros passos em programação
-- 📚 Estudando lógica de programação e Git/GitHub
-- 🎯 Meu objetivo é crescer na área e me tornar desenvolvedor de software
+- 🌱 Taking my first steps in programming
+- 📚 Studying programming logic and Git/GitHub
+- 🎯 My goal is to grow in the field and become a software developer
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Technologies
 
 <p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
@@ -30,23 +30,23 @@ Sou estudante de **Engenharia de Software** na **Universidade Cruzeiro do Sul**,
 
 ---
 
-## 📈 Meu aprendizado
+## 📈 My learning progress
 
-Os gráficos abaixo se atualizam automaticamente conforme eu estudo e faço commits.
+The charts below update automatically as I study and make commits.
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=matheus-t-x&show_icons=true&theme=dark&hide_border=true&bg_color=2d2d2d&count_private=true" alt="Estatísticas do GitHub"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheus-t-x&layout=compact&theme=dark&hide_border=true&bg_color=2d2d2d&langs_count=8" alt="Linguagens mais usadas"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=matheus-t-x&show_icons=true&theme=dark&hide_border=true&bg_color=2d2d2d&count_private=true" alt="GitHub stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheus-t-x&layout=compact&theme=dark&hide_border=true&bg_color=2d2d2d&langs_count=8" alt="Most used languages"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=matheus-t-x&theme=dark&hide_border=true&background=2d2d2d" alt="Sequência de contribuições"/>
+  <img src="https://streak-stats.demolab.com/?user=matheus-t-x&theme=dark&hide_border=true&background=2d2d2d" alt="Contribution streak"/>
 </p>
 
 ---
 
 <p align="center">
-  <i>Todo especialista já foi iniciante um dia.</i> 🚀
+  <i>Every expert was once a beginner.</i> 🚀
 </p>
 
 <p align="center">
